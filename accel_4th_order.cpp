@@ -7,9 +7,9 @@
  *
  * Code generation for model "accel_4th_order".
  *
- * Model version              : 2.3
+ * Model version              : 2.4
  * Simulink Coder version : 9.6 (R2021b) 14-May-2021
- * C++ source code generated on : Wed Feb 16 14:04:29 2022
+ * C++ source code generated on : Thu Feb 17 10:54:37 2022
  *
  * Target selection: ert.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -469,22 +469,22 @@ void accel_4th_order_initialize(void)
 
   {
     int32_T i;
-    char_T b_zeroDelimTopic_0[9];
-    char_T b_zeroDelimTopic[7];
-    static const char_T tmp[6] = { '/', 'v', '_', 'a', 'c', 't' };
+    char_T b_zeroDelimTopic_0[8];
+    char_T b_zeroDelimTopic[6];
+    static const char_T tmp[5] = { 'v', '_', 'a', 'c', 't' };
 
-    static const char_T tmp_0[8] = { '/', 'c', 'm', 'd', '_', 'v', 'e', 'l' };
+    static const char_T tmp_0[7] = { 'c', 'm', 'd', '_', 'v', 'e', 'l' };
 
     /* Start for Atomic SubSystem: '<Root>/Publish' */
     /* Start for MATLABSystem: '<S3>/SinkBlock' */
     accel_4th_order_DW.obj.matlabCodegenIsDeleted = false;
     accel_4th_order_DW.objisempty_c = true;
     accel_4th_order_DW.obj.isInitialized = 1;
-    for (i = 0; i < 6; i++) {
+    for (i = 0; i < 5; i++) {
       b_zeroDelimTopic[i] = tmp[i];
     }
 
-    b_zeroDelimTopic[6] = '\x00';
+    b_zeroDelimTopic[5] = '\x00';
     Pub_accel_4th_order_33.createPublisher(&b_zeroDelimTopic[0], 1);
     accel_4th_order_DW.obj.isSetupComplete = true;
 
@@ -496,11 +496,11 @@ void accel_4th_order_initialize(void)
     accel_4th_order_DW.obj_i.matlabCodegenIsDeleted = false;
     accel_4th_order_DW.objisempty = true;
     accel_4th_order_DW.obj_i.isInitialized = 1;
-    for (i = 0; i < 8; i++) {
+    for (i = 0; i < 7; i++) {
       b_zeroDelimTopic_0[i] = tmp_0[i];
     }
 
-    b_zeroDelimTopic_0[8] = '\x00';
+    b_zeroDelimTopic_0[7] = '\x00';
     Sub_accel_4th_order_27.createSubscriber(&b_zeroDelimTopic_0[0], 1);
     accel_4th_order_DW.obj_i.isSetupComplete = true;
 

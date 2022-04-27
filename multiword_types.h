@@ -7,9 +7,9 @@
  *
  * Code generation for model "accel_4th_order".
  *
- * Model version              : 2.3
+ * Model version              : 2.4
  * Simulink Coder version : 9.6 (R2021b) 14-May-2021
- * C++ source code generated on : Wed Feb 16 14:04:29 2022
+ * C++ source code generated on : Thu Feb 17 10:54:37 2022
  *
  * Target selection: ert.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping

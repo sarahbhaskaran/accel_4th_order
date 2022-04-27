@@ -4,7 +4,7 @@
  * Code generation for Simulink model "accel_4th_order".
  *
  * Simulink Coder version                : 9.6 (R2021b) 14-May-2021
- * C++ source code generated on : Wed Feb 16 14:04:29 2022
+ * C++ source code generated on : Thu Feb 17 10:54:37 2022
  *
  * Note that the generated code is not dependent on this header file.
  * The file is used in cojuction with the automatic build procedure.
